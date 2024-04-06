@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+  .firstdiv {
+    margin-left: -40px;
+  }
+  .mybutton {
+    margin-left: 70px !important;
+  }
+
+  .myimage {
+    height: 500px !important;
+    width: 500px !important ;
+  }
+}
+
+.stylingbutton {
+  background-color: #172554;
+}
+
+.stylingbutton:hover {
+  background-color: #1d3172;
+}

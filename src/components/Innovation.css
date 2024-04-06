@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+    
+.myvideo
+{
+    margin-left: 5px !important;
+}
+
+.myvideo2
+{
+    margin: 5px !important;
+    margin-top: -100px !important;
+    
+}
+
+.diffheading
+{
+    margin-bottom: -10px !important;
+    margin-top: 70px !important;
+}
+}
