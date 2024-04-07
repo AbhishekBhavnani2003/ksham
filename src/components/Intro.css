@@ -19,3 +19,16 @@
 .stylingbutton:hover {
   background-color: #1d3172;
 }
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .myimage
+  {
+    margin-left: 50px;
+  }
+
+  .mybutton {
+    margin-left: 170px !important;
+  }
+}

@@ -32,7 +32,7 @@ function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {cardData.map((card, index) => (
           <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col mycard" style={{ margin: "20px" , backgroundColor:'#172554' ,color:'#EEE4B1'}} >
-            <img className="w-full h-auto myimage1" src={card.imageSrc} alt={card.title} style={{ height: '300px' , width:'300px' }} />
+            <img className="w-full h-auto myimage1" src={card.imageSrc} alt={card.title} style={{ height: '300px'}} />
             <div className="px-6 py-4 flex-grow" style={{color:'#EEE4B1'}}>
               <div className="font-bold text-xl mb-2"  style={{color:'white'}}>{card.title}</div>
               <p className="text-gray-700 font-bold  text-base"  style={{color:'white'}}>{card.description}</p>

@@ -9,8 +9,8 @@ import './Innovation.css'
 export default function Example() {
     return (
         <div className="bg-white" style={{ marginTop: '-50px' }}>
-            <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-                <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+            <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 ">
+                <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 innovationcard">
                     <svg
                         viewBox="0 0 1024 1024"
                         className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -56,7 +56,7 @@ export default function Example() {
             <h1 style={{textAlign:'center' , marginTop:'40px' , fontFamily:'sans-serif' , fontWeight:'bold' , fontSize:'40px'}} className='diffheading'>How Able Glasses Work</h1>
             <div className="relative mt-16 h-80 lg:mt-8" style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', marginTop: '100px' }}>
                 <video autoPlay loop muted className='myvideo2' >
-                    <source src="https://kshaminnovation.in/static/media/vdo.66e3521b4938cfc54110.mp4" style={{    maxWidth: "1039px",  width: "60vw"}} />
+                    <source src="https://kshaminnovation.in/static/media/vdo.66e3521b4938cfc54110.mp4" style={{maxWidth: "1039px",  width: "60vw"}} />
                     Your browser does not support the video tag.
                 </video>
             </div>

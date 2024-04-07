@@ -18,3 +18,20 @@
     margin-top: 70px !important;
 }
 }
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+   
+    .innovationcard
+    {
+        height: 1000px;
+    }
+
+    .diffheading
+{
+    margin-bottom: -10px !important;
+    margin-top: 100px !important;
+}
+
+}

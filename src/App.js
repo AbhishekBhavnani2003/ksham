@@ -12,6 +12,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Product from './components/Product';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/about" element={<Aboutus/>}></Route>
         <Route exact path="/contact" element={<Contact/>}></Route>
         <Route exact path="/testimonial" element={<Testimonials/>}></Route>
+        <Route exact path="/product" element={<Product/>}></Route>
       </Routes>
       </div>
     </Router>
